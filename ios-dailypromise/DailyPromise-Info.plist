@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  Only the keys Xcode cannot express as INFOPLIST_KEY_* build settings live
+	  here. Everything else stays generated (GENERATE_INFOPLIST_FILE = YES) and is
+	  merged into this file at build time.
+
+	  The scheme below is what brings the user back from the Supabase confirmation
+	  email into the app: dailypromise://auth-callback
+	-->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>app.rork.ttexbyp0kww929p0x5t3t.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>dailypromise</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
